@@ -2,6 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base:"/docs/",
   head:[['link', { rel: 'icon', href: '炸弹.png' }]],
   title: "前端大王--JS做题网站",
   description: "A VitePress Site",
