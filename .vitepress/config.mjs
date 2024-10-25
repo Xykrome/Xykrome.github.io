@@ -8,6 +8,7 @@ export default defineConfig({
   title: "前端大王--JS做题网站",
   description: "A VitePress Site",
   themeConfig: {
+    styles: './theme/style.css',
     search: {
       provider: 'local'
     },
