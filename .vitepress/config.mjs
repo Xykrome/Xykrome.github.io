@@ -2,7 +2,7 @@ import { defineConfig } from 'vitepress'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  base:"/docs/",
+  // base:"/docs/",
   publicPath:'/task9/',
   head:[['link', { rel: 'icon', href: '炸弹.png' }]],
   title: "前端大王--JS做题网站",
